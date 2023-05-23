@@ -1,3 +1,3 @@
 added login/registration forms
---making contacs page--
---remove comments later--
+making contacts page
+remove comments later
