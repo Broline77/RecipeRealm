@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/css/Recipe.css">
+    
+</head>
+<body>
+
+<!--header-->
+<header class=" header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"><i class="fa-solid fa-dragon"></i> RecipeRealm </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search for recipes" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#favorites" class="fas fa-star"></a>
+            <a href="#blogs" class="fas fa-comments"></a>
+            <a href="#reviews" class="fas fa-user"></a>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#popular">popular</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!--header-end-->
+
+<!--bottom navbar-->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#popular" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blogs"></a>
+</nav>
+
+
+<!--home starts-->
+
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Find your new favorite recipe</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+                cumque aperiam eum praesentium itaque facere aliquam doloribus sequi 
+                libero,optio laborum reiciendis ullam accusamus consequuntur recusandae
+                explicabo impedit deleniti molestias?
+            </p><a href="#" class="btn">Discover now</a>
+        </div>
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="images/1.jfif" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/2.jfif" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/3.jfif" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/4.jfif" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/5.jfif" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/6.jfif" alt=""></a>
+            </div>
+            <img src="/images/podiums.jpg" class="stand" alt="">
+            
+        </div>
+    </div>
+
+</section>
+
+<!--end home-->
+
+<!--icons section-->
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-mug-saucer"></i>
+        <div class="content">
+            <h3>Breakfast</h3> <!--add a-tag will link to page with breakfast reipes-->
+            <p>Sample some of our finest breakfast recipes</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-bowl-rice"></i>
+        <div class="content">
+            <h3>Lunch</h3>
+            <p>Some recipes ideas for lunch</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-utensils fa-lg"></i>
+        <div class="content">
+            <h3>Dinner</h3> 
+            <p>Some recipes ideas for Dinner</p>
+        </div>
+    </div>
+    
+
+</section>
+
+<!--icons section ends-->
+
+<!--popular-picks section ends-->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"><span>popular</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+      <div class="swiper-wrapper">
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/1.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>Chapos</h3>
+                <div class="description">local dish <span>other notes</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/2.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>Amba khatta</h3>
+                <div class="description">Raw mango pickle <span>notes</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/3.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>beans&corn</h3>
+                <div class="description">local dish <span> lorem</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/4.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>lorem</h3>
+                <div class="description">lorem <span>lorem</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/5.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>lorem</h3>
+                <div class="description">lorem <span>lorem</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/6.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>lorem</h3>
+                <div class="description">lorem <span>lorem</span></div> <!--remove span-->
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="swiper-slide box">
+            <div class="image">
+                <img src="images/7.jfif" alt="">
+            </div>
+            <div class="content">
+                <h3>lorem</h3>
+                <div class="description">lorem <span>lorem</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </a>
+
+      </div>  
+
+    </div>
+
+
+
+</section>
+
+<!--popular-picks section ends-->
+
+<!--might add reviews non-priority-->
+
+<!--review sect ends-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>   
+   
+<script src="js/Recipe.js"></script> 
+</body>
+</html>
