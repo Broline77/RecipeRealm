@@ -1,5 +1,4 @@
-added login/registration forms
+tests:
 
-making contacts page
+git clone in vscode,open index.html with liveserver
 
-remove comments later
