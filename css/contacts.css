@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/images/tree.jpg");
+    background: url("../images/hex.jpg");
     background-size: cover ;
     background-position: center ; 
 }
