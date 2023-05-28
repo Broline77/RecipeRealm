@@ -247,7 +247,7 @@ section{
    
 }
 
-.arrivals .arrivals-slider .box{
+.popular .popular-slider .box{
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -257,28 +257,28 @@ section{
 
 }
 
-.arrivals .arrivals-slider .box:hover{
+.popular .popular-slider .box:hover{
     border: var(--border-hover);
 
 }
 
-.arrivals .arrivals-slider .box .image img{
+.popular .popular-slider .box .image img{
     height: 15rem;
 
 }
 
-.arrivals .arrivals-slider .box  .content h3{
+.popular .popular-slider .box  .content h3{
     font-size: 2rem;
     color: var(--black);
 }
 
-.arrivals .arrivals-slider .box .content .description{
+.popular .popular-slider .box .content .description{
     font-size: 2.2rem;
     color: var(--black);
     padding-bottom: .5rem;
 }
 
-.arrivals .arrivals-slider .box .content .stars i{
+.popular .popular-slider .box .content .stars i{
     font-size: 1.5rem;
     color: var(--green);
 }

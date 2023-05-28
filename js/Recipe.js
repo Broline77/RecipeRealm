@@ -44,7 +44,7 @@ var swiper = new Swiper(".books-slider", {
     },
   });
 
-  var swiper = new Swiper(".arrivals-slider", {
+  var swiper = new Swiper(".popular-slider", {
     spaceBetween:10,
     loop:true,
     centeredSldes: true,

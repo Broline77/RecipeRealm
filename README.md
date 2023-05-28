@@ -1,4 +1,2 @@
-tests:
-
-git clone in vscode,open index.html with liveserver
+v1--https://broline77.github.io/RecipeRealm/
 
