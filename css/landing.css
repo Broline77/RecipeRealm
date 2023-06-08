@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root{
+  --green:#162938;
+  --dark-color:#219150;
+  --black:#444;
+  --light-color:#666;
+  --border:.1rem solid rgba(0,0,0,.1);
+  --border-hover:.1rem solid var(--black);
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+
+}
+
+/* Global styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #162938;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e64558;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Featured Recipe section */
+  .featured-recipe {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .recipe-card {
+    margin-bottom: 40px;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Recipe Collections section */
+  .recipe-collections {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .collection-card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+  }
+  
+  .collection-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonial section */
+  .testimonial {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+  
+  /* Newsletter section */
+  .newsletter {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .newsletter p {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .newsletter form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #162938;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter form button:hover {
+    background-color: #e64558;
+  }
+  
+  .reviews{
+    text-align: center;
+  }
+
+  .reviews .wrap .box{
+   
+    
+    text-align: center;
+  }
+/*
+  .reviews .reviews-slider .box{
+    width: 30rem;
+    border: var(--border);S
+    padding: 2rem;
+    text-align:center;
+
+  }
+*/
+
+
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
