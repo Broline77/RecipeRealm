@@ -1,3 +1,4 @@
+//dark theme
 const body = document.querySelector("body");
 const toggle = document.querySelector("#toggle");
 const sunIcon = document.querySelector(".toggle .bxs-sun");
