@@ -7,10 +7,23 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/landing.css">
+
 </head>
-<body>
+
+
+<body class="light">
   <header>
+    <nav class="navigation">
+      <input type="checkbox" name="" id="toggle">
+
+      <label class="toggle" for="toggle">
+          <i class="bx bxs-sun"></i>
+          <i class="bx bxs-moon"></i>
+          <span class="ball"></span>      
+      </label>
+  </nav>
     <h1>Welcome to Recipe Realm</h1>
     <p>Your Recipe Oasis</p>
     <p>Discover the most delightful recipes for every occasion</p>
@@ -118,6 +131,8 @@
   <footer>
     <p>&copy; 2023 Recipe Realm. All rights reserved.</p>
   </footer>
+
+  <script src="js/landing.js"></script>
 
 
 </body>
