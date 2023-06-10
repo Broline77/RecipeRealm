@@ -9,9 +9,20 @@ body{
    
   }
   
-  h1, h2, h3, h4 {
+  h1, h2{
     color: #336699;
+    text-decoration: underline;
   }
+
+  h3, h4{
+    color: #336699;
+
+  }
+  p {
+    color: #336688;
+  }
+
+  
   
   a {
     text-decoration: none;
@@ -36,6 +47,127 @@ body{
     text-align: center;
     padding: 40px;
   }
+
+
+  /*About us*/
+  .section{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#ddd;
+    background: url('')no-repeat;
+    background-position: center;
+
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+   width: 100%;
+   height: auto;
+
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #162938;
+    
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #162938;
+    font-size: 21px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height:1.5 ;
+}
+
+.content-section .content .switch a{
+    margin-top: 30px ;
+}
+
+.content-section .content .switch a{
+    background-color: #162938;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+}
+.content-section .content .switch a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+    
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+
+.content-section .social i{
+    color: #336699;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: #a52a2a;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.image-section{
+    float: none;
+    width: 100%;
+    
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+.content-section .title{
+    text-align: center;
+    font-size: 19px;
+}
+.content-section .content .switch{
+    text-align: center;
+}
+.content-section .content .switch a{
+    padding: 9px 30px;
+
+}
+
+}
+/*About-us-ends*/
   
   /* Featured Recipe section */
   .featured-recipe {
@@ -53,11 +185,17 @@ body{
     height: auto;
     margin-bottom: 10px;
   }
+
+  
   
   /* Recipe Collections section */
   .recipe-collections {
     text-align: center;
     padding: 40px;
+  }
+
+  .recipe-collections h1{
+    font-size: 30px;
   }
   
   .collection-card {
@@ -76,7 +214,115 @@ body{
     height: auto;
     margin-bottom: 10px;
   }
-  
+
+  /*contact us section*/
+  .bottle {
+    min-height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.bottle form{
+    width: 670px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    flex-wrap: wrap;
+    background: blur;
+    
+}
+
+
+.bottle form h1{
+    color:#336699;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+
+}
+
+.bottle form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #336699;
+}
+
+
+.bottle form input::placeholder{
+    color: #336699;
+    
+}
+
+.bottle form #lastName,
+.bottle form #mobile{
+    margin-left: 20px;
+}
+
+.bottle form h4{
+    color: #336699;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.bottle form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #336699;
+    color: #336699;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 50px;
+    max-height: 50px;
+
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194, 194, 194, 0.713);
+}
+
+.bottle form #button{
+    border: none;
+    background: #336699;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transform: 0.3s;
+}
+
+.bottle form #button:hover{
+    opacity: 0.7;
+}
+
+
+ 
   /* reviews section */
   .testimonial {
     background-color: #f1f1f1;
@@ -131,13 +377,13 @@ body{
 
 
 
-  /* Footer */
+
   footer {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 5px;
   }
+
 
   body .light {
     height: 100vh;
@@ -254,4 +500,70 @@ header .navigation{
 
 }
 
-  
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: -10px 0;
+}
+
+.middle {
+  text-align: center;
+}
+
+.foot {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+
+.foot i {
+  line-height: 60px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+
+.foot:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.foot::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.foot:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}

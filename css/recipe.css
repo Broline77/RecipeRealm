@@ -280,7 +280,7 @@ section{
 
 .popular .popular-slider .box .content .stars i{
     font-size: 1.5rem;
-    color: var(--green);
+    color: var(--black);
 }
 body .light {
     height: 100vh;
