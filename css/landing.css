@@ -52,9 +52,7 @@ body{
   /*About us*/
   .section{
     width: 100%;
-    min-height: 100vh;
-    background-color:#ddd;
-    background: url('')no-repeat;
+    min-height: 60vh;
     background-position: center;
 
 }
@@ -116,18 +114,7 @@ body{
     color: #fff;
     
 }
-.content-section .social{
-    margin: 40px 40px;
-}
 
-.content-section .social i{
-    color: #336699;
-    font-size: 30px;
-    padding: 0px 10px;
-}
-.content-section .social i:hover{
-    color: #a52a2a;
-}
 
 @media screen and (max-width: 768px){
     .container{
@@ -217,7 +204,7 @@ body{
 
   /*contact us section*/
   .bottle {
-    min-height: 100vh;
+    min-height: 60vh;
     background: transparent;
     display: flex;
     justify-content: center;
