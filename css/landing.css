@@ -11,12 +11,12 @@ body{
   .navbar{
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 50%;
     padding: 25px 12.5%;
     background: transparent;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .navbar a{
