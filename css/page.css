@@ -49,8 +49,13 @@ li{
      
 }
 
+.logo{
+    text-align: center;
+
+}
+
 hr {
-    background-color: #3498db;
+    background-color: #166396;
     height: 1px;
 }
 
